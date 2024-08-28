@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="boot03thymeleaf">
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <property name="context-root" value="boot03thymeleaf"/>
+        <property name="java-output-path" value="/boot03thymeleaf/target/classes"/>
+    </wb-module>
+</project-modules>

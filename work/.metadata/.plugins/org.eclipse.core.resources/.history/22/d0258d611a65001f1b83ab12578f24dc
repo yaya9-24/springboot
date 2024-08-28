@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>update.html</title>
+</head>
+<body>
+	<h1>update.html</h1>
+	<a href="/home">home</a>
+	<a href="/member/insert">insert</a>
+	<a href="/member/update">update</a>
+	<a href="/member/delete">delete</a>
+	<a href="/member/selectAll">selectAll</a>
+	<a href="/member/selectOne">selectOne</a>
+</body>
+</html>

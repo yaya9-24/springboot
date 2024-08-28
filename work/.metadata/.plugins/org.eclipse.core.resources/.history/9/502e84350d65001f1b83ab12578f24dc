@@ -1,0 +1,5 @@
+package test.com.rest.thymeleaf;
+
+public class HomeController {
+
+}

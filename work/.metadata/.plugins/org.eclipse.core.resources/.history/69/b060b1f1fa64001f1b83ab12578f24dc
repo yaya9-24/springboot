@@ -1,0 +1,4 @@
+spring.application.name=boot01hello
+server.port=8801
+
+logging.file.name=logger_hello.log

@@ -1,0 +1,2 @@
+spring.application.name=boot01hello
+server.port=8801

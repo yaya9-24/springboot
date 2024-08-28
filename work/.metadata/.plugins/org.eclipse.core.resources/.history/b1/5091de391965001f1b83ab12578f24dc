@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>home.html</title>
+</head>
+<body>
+	<header>
+		<nav th:replace="~{top_menu::top_menu}">
+				
+		</nav>
+	</header>
+	<h1>home.html</h1>
+	
+</body>
+</html>

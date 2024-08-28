@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>index.html</h1>
+	<p><a href="api/json_selectOne.do?num=1">api/json_selectOne.do?num=1</a></p>
+	<p><a href="api/json_selectAll.do">api/json_selectAll.do</a></p>
+	<p><a href="api/json_insertOK.do?name=kim&age=33">api/json_insertOK.do?name=kim&age=33</a></p>
+</body>
+</html>

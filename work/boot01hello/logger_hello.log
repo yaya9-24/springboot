@@ -1,0 +1,282 @@
+2024-08-28T14:02:39.149+09:00  INFO 19928 --- [boot01hello] [restartedMain] test.com.hello.Boot01helloApplication    : Starting Boot01helloApplication using Java 17.0.10 with PID 19928 (C:\MULTI_EDU_26\springboot\work\boot01hello\target\classes started by tkwkd in C:\MULTI_EDU_26\springboot\work\boot01hello)
+2024-08-28T14:02:39.150+09:00  INFO 19928 --- [boot01hello] [restartedMain] test.com.hello.Boot01helloApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-08-28T14:02:39.247+09:00  INFO 19928 --- [boot01hello] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8801 (http)
+2024-08-28T14:02:39.249+09:00  INFO 19928 --- [boot01hello] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-28T14:02:39.249+09:00  INFO 19928 --- [boot01hello] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-08-28T14:02:39.258+09:00  INFO 19928 --- [boot01hello] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-28T14:02:39.258+09:00  INFO 19928 --- [boot01hello] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 107 ms
+2024-08-28T14:02:39.261+09:00  INFO 19928 --- [boot01hello] [restartedMain] test.com.hello.TestComponent             : TestComponent()...
+2024-08-28T14:02:39.262+09:00  INFO 19928 --- [boot01hello] [restartedMain] test.com.hello.UserComponent             : UserComponent()...
+2024-08-28T14:02:39.262+09:00  INFO 19928 --- [boot01hello] [restartedMain] test.com.hello.TestBean                  : TestBean()...
+2024-08-28T14:02:39.262+09:00  INFO 19928 --- [boot01hello] [restartedMain] test.com.hello.Person                    : Person()...
+2024-08-28T14:02:39.274+09:00  INFO 19928 --- [boot01hello] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-08-28T14:02:39.295+09:00  INFO 19928 --- [boot01hello] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-28T14:02:39.301+09:00  INFO 19928 --- [boot01hello] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8801 (http) with context path '/'
+2024-08-28T14:02:39.303+09:00  INFO 19928 --- [boot01hello] [restartedMain] test.com.hello.Boot01helloApplication    : Started Boot01helloApplication in 0.185 seconds (process running for 12998.51)
+2024-08-28T14:02:39.304+09:00  INFO 19928 --- [boot01hello] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-28T14:03:40.780+09:00  INFO 19928 --- [boot01hello] [RMI TCP Connection(259)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-08-28T14:03:50.303+09:00  INFO 20444 --- [boot01hello] [restartedMain] test.com.hello.Boot01helloApplication    : Starting Boot01helloApplication using Java 17.0.10 with PID 20444 (C:\MULTI_EDU_26\springboot\work\boot01hello\target\classes started by tkwkd in C:\MULTI_EDU_26\springboot\work\boot01hello)
+2024-08-28T14:03:50.304+09:00  INFO 20444 --- [boot01hello] [restartedMain] test.com.hello.Boot01helloApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-08-28T14:03:50.334+09:00  INFO 20444 --- [boot01hello] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-28T14:03:50.334+09:00  INFO 20444 --- [boot01hello] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-28T14:03:50.877+09:00  INFO 20444 --- [boot01hello] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8801 (http)
+2024-08-28T14:03:50.887+09:00  INFO 20444 --- [boot01hello] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-28T14:03:50.887+09:00  INFO 20444 --- [boot01hello] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-08-28T14:03:50.918+09:00  INFO 20444 --- [boot01hello] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-28T14:03:50.919+09:00  INFO 20444 --- [boot01hello] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 584 ms
+2024-08-28T14:03:50.952+09:00  INFO 20444 --- [boot01hello] [restartedMain] test.com.hello.TestComponent             : TestComponent()...
+2024-08-28T14:03:50.952+09:00  INFO 20444 --- [boot01hello] [restartedMain] test.com.hello.UserComponent             : UserComponent()...
+2024-08-28T14:03:50.953+09:00  INFO 20444 --- [boot01hello] [restartedMain] test.com.hello.TestBean                  : TestBean()...
+2024-08-28T14:03:50.953+09:00  INFO 20444 --- [boot01hello] [restartedMain] test.com.hello.Person                    : Person()...
+2024-08-28T14:03:50.985+09:00  INFO 20444 --- [boot01hello] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-08-28T14:03:51.133+09:00  INFO 20444 --- [boot01hello] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-28T14:03:51.158+09:00  INFO 20444 --- [boot01hello] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8801 (http) with context path '/'
+2024-08-28T14:03:51.164+09:00  INFO 20444 --- [boot01hello] [restartedMain] test.com.hello.Boot01helloApplication    : Started Boot01helloApplication in 1.111 seconds (process running for 1.575)
+2024-08-28T14:04:04.833+09:00  INFO 20444 --- [boot01hello] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-08-28T14:04:04.923+09:00  INFO 20444 --- [boot01hello] [restartedMain] test.com.hello.Boot01helloApplication    : Starting Boot01helloApplication using Java 17.0.10 with PID 20444 (C:\MULTI_EDU_26\springboot\work\boot01hello\target\classes started by tkwkd in C:\MULTI_EDU_26\springboot\work\boot01hello)
+2024-08-28T14:04:04.924+09:00  INFO 20444 --- [boot01hello] [restartedMain] test.com.hello.Boot01helloApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-08-28T14:04:05.033+09:00  INFO 20444 --- [boot01hello] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8801 (http)
+2024-08-28T14:04:05.033+09:00  INFO 20444 --- [boot01hello] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-28T14:04:05.034+09:00  INFO 20444 --- [boot01hello] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-08-28T14:04:05.043+09:00  INFO 20444 --- [boot01hello] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-28T14:04:05.043+09:00  INFO 20444 --- [boot01hello] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 118 ms
+2024-08-28T14:04:05.046+09:00  INFO 20444 --- [boot01hello] [restartedMain] test.com.hello.TestComponent             : TestComponent()...
+2024-08-28T14:04:05.047+09:00  INFO 20444 --- [boot01hello] [restartedMain] test.com.hello.UserComponent             : UserComponent()...
+2024-08-28T14:04:05.048+09:00  INFO 20444 --- [boot01hello] [restartedMain] test.com.hello.TestBean                  : TestBean()...
+2024-08-28T14:04:05.049+09:00  INFO 20444 --- [boot01hello] [restartedMain] test.com.hello.Person                    : Person()...
+2024-08-28T14:04:05.056+09:00  INFO 20444 --- [boot01hello] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-08-28T14:04:05.077+09:00  INFO 20444 --- [boot01hello] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-28T14:04:05.083+09:00  INFO 20444 --- [boot01hello] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8801 (http) with context path '/'
+2024-08-28T14:04:05.087+09:00  INFO 20444 --- [boot01hello] [restartedMain] test.com.hello.Boot01helloApplication    : Started Boot01helloApplication in 0.18 seconds (process running for 15.499)
+2024-08-28T14:04:05.089+09:00  INFO 20444 --- [boot01hello] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-28T14:04:22.220+09:00  INFO 20444 --- [boot01hello] [RMI TCP Connection(6)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-08-28T14:04:23.625+09:00  INFO 8688 --- [boot01hello] [restartedMain] test.com.hello.Boot01helloApplication    : Starting Boot01helloApplication using Java 17.0.10 with PID 8688 (C:\MULTI_EDU_26\springboot\work\boot01hello\target\classes started by tkwkd in C:\MULTI_EDU_26\springboot\work\boot01hello)
+2024-08-28T14:04:23.626+09:00  INFO 8688 --- [boot01hello] [restartedMain] test.com.hello.Boot01helloApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-08-28T14:04:23.656+09:00  INFO 8688 --- [boot01hello] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-28T14:04:23.656+09:00  INFO 8688 --- [boot01hello] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-28T14:04:24.181+09:00  INFO 8688 --- [boot01hello] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8801 (http)
+2024-08-28T14:04:24.191+09:00  INFO 8688 --- [boot01hello] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-28T14:04:24.191+09:00  INFO 8688 --- [boot01hello] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-08-28T14:04:24.221+09:00  INFO 8688 --- [boot01hello] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-28T14:04:24.221+09:00  INFO 8688 --- [boot01hello] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 564 ms
+2024-08-28T14:04:24.255+09:00  INFO 8688 --- [boot01hello] [restartedMain] test.com.hello.TestComponent             : TestComponent()...
+2024-08-28T14:04:24.256+09:00  INFO 8688 --- [boot01hello] [restartedMain] test.com.hello.UserComponent             : UserComponent()...
+2024-08-28T14:04:24.256+09:00  INFO 8688 --- [boot01hello] [restartedMain] test.com.hello.TestBean                  : TestBean()...
+2024-08-28T14:04:24.257+09:00  INFO 8688 --- [boot01hello] [restartedMain] test.com.hello.Person                    : Person()...
+2024-08-28T14:04:24.288+09:00  INFO 8688 --- [boot01hello] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-08-28T14:04:24.434+09:00  INFO 8688 --- [boot01hello] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-28T14:04:24.455+09:00  INFO 8688 --- [boot01hello] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8801 (http) with context path '/'
+2024-08-28T14:04:24.461+09:00  INFO 8688 --- [boot01hello] [restartedMain] test.com.hello.Boot01helloApplication    : Started Boot01helloApplication in 1.079 seconds (process running for 1.516)
+2024-08-28T14:06:31.564+09:00  INFO 8688 --- [boot01hello] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-08-28T14:12:41.255+09:00  INFO 2556 --- [boot01hello] [restartedMain] test.com.hello.Boot01helloApplication    : Starting Boot01helloApplication using Java 17.0.10 with PID 2556 (C:\MULTI_EDU_26\springboot\work\boot01hello\target\classes started by tkwkd in C:\MULTI_EDU_26\springboot\work\boot01hello)
+2024-08-28T14:12:41.256+09:00  INFO 2556 --- [boot01hello] [restartedMain] test.com.hello.Boot01helloApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-08-28T14:12:41.381+09:00  INFO 2556 --- [boot01hello] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8801 (http)
+2024-08-28T14:12:41.381+09:00  INFO 2556 --- [boot01hello] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-28T14:12:41.381+09:00  INFO 2556 --- [boot01hello] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-08-28T14:12:41.389+09:00  INFO 2556 --- [boot01hello] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-28T14:12:41.390+09:00  INFO 2556 --- [boot01hello] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 133 ms
+2024-08-28T14:12:41.393+09:00  INFO 2556 --- [boot01hello] [restartedMain] test.com.hello.TestComponent             : TestComponent()...
+2024-08-28T14:12:41.393+09:00  INFO 2556 --- [boot01hello] [restartedMain] test.com.hello.UserComponent             : UserComponent()...
+2024-08-28T14:12:41.394+09:00  INFO 2556 --- [boot01hello] [restartedMain] test.com.hello.UserComponent             : user_name:null
+2024-08-28T14:12:41.395+09:00  INFO 2556 --- [boot01hello] [restartedMain] test.com.hello.UserComponent             : user_age:0
+2024-08-28T14:12:41.395+09:00  INFO 2556 --- [boot01hello] [restartedMain] test.com.hello.TestBean                  : TestBean()...
+2024-08-28T14:12:41.395+09:00  INFO 2556 --- [boot01hello] [restartedMain] test.com.hello.Person                    : Person()...
+2024-08-28T14:12:41.406+09:00  INFO 2556 --- [boot01hello] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-08-28T14:12:41.435+09:00  INFO 2556 --- [boot01hello] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-28T14:12:41.441+09:00  INFO 2556 --- [boot01hello] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8801 (http) with context path '/'
+2024-08-28T14:12:41.444+09:00  INFO 2556 --- [boot01hello] [restartedMain] test.com.hello.Boot01helloApplication    : Started Boot01helloApplication in 0.206 seconds (process running for 286.762)
+2024-08-28T14:12:41.445+09:00  INFO 2556 --- [boot01hello] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-28T14:14:14.320+09:00  INFO 2556 --- [boot01hello] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2024-08-28T14:14:14.399+09:00  INFO 2556 --- [boot01hello] [restartedMain] test.com.hello.Boot01helloApplication    : Starting Boot01helloApplication using Java 17.0.10 with PID 2556 (C:\MULTI_EDU_26\springboot\work\boot01hello\target\classes started by tkwkd in C:\MULTI_EDU_26\springboot\work\boot01hello)
+2024-08-28T14:14:14.399+09:00  INFO 2556 --- [boot01hello] [restartedMain] test.com.hello.Boot01helloApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-08-28T14:14:14.494+09:00  INFO 2556 --- [boot01hello] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8801 (http)
+2024-08-28T14:14:14.494+09:00  INFO 2556 --- [boot01hello] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-28T14:14:14.495+09:00  INFO 2556 --- [boot01hello] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-08-28T14:14:14.503+09:00  INFO 2556 --- [boot01hello] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-28T14:14:14.503+09:00  INFO 2556 --- [boot01hello] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 103 ms
+2024-08-28T14:14:14.506+09:00  INFO 2556 --- [boot01hello] [restartedMain] test.com.hello.TestComponent             : TestComponent()...
+2024-08-28T14:14:14.506+09:00  INFO 2556 --- [boot01hello] [restartedMain] test.com.hello.UserComponent             : UserComponent()...
+2024-08-28T14:14:14.506+09:00  INFO 2556 --- [boot01hello] [restartedMain] test.com.hello.UserComponent             : user_name:null
+2024-08-28T14:14:14.506+09:00  INFO 2556 --- [boot01hello] [restartedMain] test.com.hello.UserComponent             : user_age:0
+2024-08-28T14:14:14.507+09:00  INFO 2556 --- [boot01hello] [restartedMain] test.com.hello.TestBean                  : TestBean()...
+2024-08-28T14:14:14.507+09:00  INFO 2556 --- [boot01hello] [restartedMain] test.com.hello.Person                    : Person()...
+2024-08-28T14:14:14.514+09:00  INFO 2556 --- [boot01hello] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-08-28T14:14:14.533+09:00  INFO 2556 --- [boot01hello] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-28T14:14:14.538+09:00  INFO 2556 --- [boot01hello] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8801 (http) with context path '/'
+2024-08-28T14:14:14.541+09:00  INFO 2556 --- [boot01hello] [restartedMain] test.com.hello.Boot01helloApplication    : Started Boot01helloApplication in 0.158 seconds (process running for 379.859)
+2024-08-28T14:14:14.543+09:00  INFO 2556 --- [boot01hello] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-28T14:14:53.527+09:00  INFO 2556 --- [boot01hello] [RMI TCP Connection(25)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-08-28T14:14:54.759+09:00  INFO 12776 --- [boot01hello] [restartedMain] test.com.hello.Boot01helloApplication    : Starting Boot01helloApplication using Java 17.0.10 with PID 12776 (C:\MULTI_EDU_26\springboot\work\boot01hello\target\classes started by tkwkd in C:\MULTI_EDU_26\springboot\work\boot01hello)
+2024-08-28T14:14:54.761+09:00  INFO 12776 --- [boot01hello] [restartedMain] test.com.hello.Boot01helloApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-08-28T14:14:54.791+09:00  INFO 12776 --- [boot01hello] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-28T14:14:54.791+09:00  INFO 12776 --- [boot01hello] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-28T14:14:55.324+09:00  INFO 12776 --- [boot01hello] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8801 (http)
+2024-08-28T14:14:55.334+09:00  INFO 12776 --- [boot01hello] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-28T14:14:55.335+09:00  INFO 12776 --- [boot01hello] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-08-28T14:14:55.368+09:00  INFO 12776 --- [boot01hello] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-28T14:14:55.369+09:00  INFO 12776 --- [boot01hello] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 578 ms
+2024-08-28T14:14:55.400+09:00  INFO 12776 --- [boot01hello] [restartedMain] test.com.hello.TestComponent             : TestComponent()...
+2024-08-28T14:14:55.401+09:00  INFO 12776 --- [boot01hello] [restartedMain] test.com.hello.UserComponent             : UserComponent()...
+2024-08-28T14:14:55.401+09:00  INFO 12776 --- [boot01hello] [restartedMain] test.com.hello.UserComponent             : user_name:null
+2024-08-28T14:14:55.402+09:00  INFO 12776 --- [boot01hello] [restartedMain] test.com.hello.UserComponent             : user_age:0
+2024-08-28T14:14:55.404+09:00  INFO 12776 --- [boot01hello] [restartedMain] test.com.hello.TestBean                  : TestBean()...
+2024-08-28T14:14:55.405+09:00  INFO 12776 --- [boot01hello] [restartedMain] test.com.hello.Person                    : Person()...
+2024-08-28T14:14:55.442+09:00  INFO 12776 --- [boot01hello] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-08-28T14:14:55.584+09:00  INFO 12776 --- [boot01hello] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-28T14:14:55.604+09:00  INFO 12776 --- [boot01hello] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8801 (http) with context path '/'
+2024-08-28T14:14:55.611+09:00  INFO 12776 --- [boot01hello] [restartedMain] test.com.hello.Boot01helloApplication    : Started Boot01helloApplication in 1.091 seconds (process running for 1.529)
+2024-08-28T14:16:54.441+09:00  INFO 12776 --- [boot01hello] [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-08-28T14:16:54.448+09:00  INFO 12776 --- [boot01hello] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-08-28T14:16:54.526+09:00  INFO 12776 --- [boot01hello] [restartedMain] test.com.hello.Boot01helloApplication    : Starting Boot01helloApplication using Java 17.0.10 with PID 12776 (C:\MULTI_EDU_26\springboot\work\boot01hello\target\classes started by tkwkd in C:\MULTI_EDU_26\springboot\work\boot01hello)
+2024-08-28T14:16:54.527+09:00  INFO 12776 --- [boot01hello] [restartedMain] test.com.hello.Boot01helloApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-08-28T14:16:54.645+09:00  INFO 12776 --- [boot01hello] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8801 (http)
+2024-08-28T14:16:54.646+09:00  INFO 12776 --- [boot01hello] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-28T14:16:54.646+09:00  INFO 12776 --- [boot01hello] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-08-28T14:16:54.655+09:00  INFO 12776 --- [boot01hello] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-28T14:16:54.655+09:00  INFO 12776 --- [boot01hello] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 127 ms
+2024-08-28T14:16:54.659+09:00  INFO 12776 --- [boot01hello] [restartedMain] test.com.hello.TestComponent             : TestComponent()...
+2024-08-28T14:16:54.659+09:00  INFO 12776 --- [boot01hello] [restartedMain] test.com.hello.TestComponent             : userCom:null
+2024-08-28T14:16:54.661+09:00  INFO 12776 --- [boot01hello] [restartedMain] test.com.hello.UserComponent             : UserComponent()...
+2024-08-28T14:16:54.661+09:00  INFO 12776 --- [boot01hello] [restartedMain] test.com.hello.UserComponent             : user_name:null
+2024-08-28T14:16:54.661+09:00  INFO 12776 --- [boot01hello] [restartedMain] test.com.hello.UserComponent             : user_age:0
+2024-08-28T14:16:54.662+09:00  INFO 12776 --- [boot01hello] [restartedMain] test.com.hello.TestBean                  : TestBean()...
+2024-08-28T14:16:54.662+09:00  INFO 12776 --- [boot01hello] [restartedMain] test.com.hello.Person                    : Person()...
+2024-08-28T14:16:54.672+09:00  INFO 12776 --- [boot01hello] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-08-28T14:16:54.702+09:00  INFO 12776 --- [boot01hello] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-28T14:16:54.708+09:00  INFO 12776 --- [boot01hello] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8801 (http) with context path '/'
+2024-08-28T14:16:54.711+09:00  INFO 12776 --- [boot01hello] [restartedMain] test.com.hello.Boot01helloApplication    : Started Boot01helloApplication in 0.202 seconds (process running for 120.63)
+2024-08-28T14:16:54.712+09:00  INFO 12776 --- [boot01hello] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-28T14:17:09.494+09:00  INFO 12776 --- [boot01hello] [RMI TCP Connection(13)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-08-28T14:17:10.922+09:00  INFO 17656 --- [boot01hello] [restartedMain] test.com.hello.Boot01helloApplication    : Starting Boot01helloApplication using Java 17.0.10 with PID 17656 (C:\MULTI_EDU_26\springboot\work\boot01hello\target\classes started by tkwkd in C:\MULTI_EDU_26\springboot\work\boot01hello)
+2024-08-28T14:17:10.924+09:00  INFO 17656 --- [boot01hello] [restartedMain] test.com.hello.Boot01helloApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-08-28T14:17:10.954+09:00  INFO 17656 --- [boot01hello] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-28T14:17:10.954+09:00  INFO 17656 --- [boot01hello] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-28T14:17:11.497+09:00  INFO 17656 --- [boot01hello] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8801 (http)
+2024-08-28T14:17:11.507+09:00  INFO 17656 --- [boot01hello] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-28T14:17:11.507+09:00  INFO 17656 --- [boot01hello] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-08-28T14:17:11.537+09:00  INFO 17656 --- [boot01hello] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-28T14:17:11.537+09:00  INFO 17656 --- [boot01hello] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 582 ms
+2024-08-28T14:17:11.568+09:00  INFO 17656 --- [boot01hello] [restartedMain] test.com.hello.TestComponent             : TestComponent()...
+2024-08-28T14:17:11.569+09:00  INFO 17656 --- [boot01hello] [restartedMain] test.com.hello.TestComponent             : userCom:null
+2024-08-28T14:17:11.573+09:00  INFO 17656 --- [boot01hello] [restartedMain] test.com.hello.UserComponent             : UserComponent()...
+2024-08-28T14:17:11.573+09:00  INFO 17656 --- [boot01hello] [restartedMain] test.com.hello.UserComponent             : user_name:null
+2024-08-28T14:17:11.574+09:00  INFO 17656 --- [boot01hello] [restartedMain] test.com.hello.UserComponent             : user_age:0
+2024-08-28T14:17:11.575+09:00  INFO 17656 --- [boot01hello] [restartedMain] test.com.hello.TestBean                  : TestBean()...
+2024-08-28T14:17:11.576+09:00  INFO 17656 --- [boot01hello] [restartedMain] test.com.hello.Person                    : Person()...
+2024-08-28T14:17:11.608+09:00  INFO 17656 --- [boot01hello] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-08-28T14:17:11.752+09:00  INFO 17656 --- [boot01hello] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-28T14:17:11.774+09:00  INFO 17656 --- [boot01hello] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8801 (http) with context path '/'
+2024-08-28T14:17:11.781+09:00  INFO 17656 --- [boot01hello] [restartedMain] test.com.hello.Boot01helloApplication    : Started Boot01helloApplication in 1.112 seconds (process running for 1.546)
+2024-08-28T14:19:41.479+09:00  INFO 17656 --- [boot01hello] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2024-08-28T14:19:41.564+09:00  INFO 17656 --- [boot01hello] [restartedMain] test.com.hello.Boot01helloApplication    : Starting Boot01helloApplication using Java 17.0.10 with PID 17656 (C:\MULTI_EDU_26\springboot\work\boot01hello\target\classes started by tkwkd in C:\MULTI_EDU_26\springboot\work\boot01hello)
+2024-08-28T14:19:41.565+09:00  INFO 17656 --- [boot01hello] [restartedMain] test.com.hello.Boot01helloApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-08-28T14:19:41.680+09:00  INFO 17656 --- [boot01hello] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8801 (http)
+2024-08-28T14:19:41.680+09:00  INFO 17656 --- [boot01hello] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-28T14:19:41.680+09:00  INFO 17656 --- [boot01hello] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-08-28T14:19:41.689+09:00  INFO 17656 --- [boot01hello] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-28T14:19:41.689+09:00  INFO 17656 --- [boot01hello] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 123 ms
+2024-08-28T14:19:41.692+09:00  INFO 17656 --- [boot01hello] [restartedMain] test.com.hello.TestComponent             : TestComponent()...
+2024-08-28T14:19:41.693+09:00  INFO 17656 --- [boot01hello] [restartedMain] test.com.hello.TestComponent             : userCom:null
+2024-08-28T14:19:41.693+09:00  INFO 17656 --- [boot01hello] [restartedMain] test.com.hello.UserComponent             : UserComponent()...
+2024-08-28T14:19:41.693+09:00  INFO 17656 --- [boot01hello] [restartedMain] test.com.hello.UserComponent             : user_name:null
+2024-08-28T14:19:41.693+09:00  INFO 17656 --- [boot01hello] [restartedMain] test.com.hello.UserComponent             : user_age:0
+2024-08-28T14:19:41.694+09:00  INFO 17656 --- [boot01hello] [restartedMain] test.com.hello.TestBean                  : TestBean()...
+2024-08-28T14:19:41.695+09:00  INFO 17656 --- [boot01hello] [restartedMain] test.com.hello.Person                    : Person()...
+2024-08-28T14:19:41.703+09:00  INFO 17656 --- [boot01hello] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-08-28T14:19:41.724+09:00  INFO 17656 --- [boot01hello] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-28T14:19:41.730+09:00  INFO 17656 --- [boot01hello] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8801 (http) with context path '/'
+2024-08-28T14:19:41.734+09:00  INFO 17656 --- [boot01hello] [restartedMain] test.com.hello.Boot01helloApplication    : Started Boot01helloApplication in 0.185 seconds (process running for 151.499)
+2024-08-28T14:19:41.735+09:00  INFO 17656 --- [boot01hello] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-28T14:20:20.752+09:00  INFO 17656 --- [boot01hello] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-08-28T14:20:20.830+09:00  INFO 17656 --- [boot01hello] [restartedMain] test.com.hello.Boot01helloApplication    : Starting Boot01helloApplication using Java 17.0.10 with PID 17656 (C:\MULTI_EDU_26\springboot\work\boot01hello\target\classes started by tkwkd in C:\MULTI_EDU_26\springboot\work\boot01hello)
+2024-08-28T14:20:20.831+09:00  INFO 17656 --- [boot01hello] [restartedMain] test.com.hello.Boot01helloApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-08-28T14:20:20.930+09:00  INFO 17656 --- [boot01hello] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8801 (http)
+2024-08-28T14:20:20.930+09:00  INFO 17656 --- [boot01hello] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-28T14:20:20.930+09:00  INFO 17656 --- [boot01hello] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-08-28T14:20:20.940+09:00  INFO 17656 --- [boot01hello] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-28T14:20:20.940+09:00  INFO 17656 --- [boot01hello] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 108 ms
+2024-08-28T14:20:20.945+09:00  INFO 17656 --- [boot01hello] [restartedMain] test.com.hello.TestComponent             : TestComponent()...
+2024-08-28T14:20:20.945+09:00  INFO 17656 --- [boot01hello] [restartedMain] test.com.hello.TestComponent             : userCom:null
+2024-08-28T14:20:20.945+09:00  INFO 17656 --- [boot01hello] [restartedMain] test.com.hello.UserComponent             : UserComponent()...
+2024-08-28T14:20:20.945+09:00  INFO 17656 --- [boot01hello] [restartedMain] test.com.hello.UserComponent             : user_name:null
+2024-08-28T14:20:20.946+09:00  INFO 17656 --- [boot01hello] [restartedMain] test.com.hello.UserComponent             : user_age:0
+2024-08-28T14:20:20.946+09:00  INFO 17656 --- [boot01hello] [restartedMain] test.com.hello.TestBean                  : TestBean()...
+2024-08-28T14:20:20.946+09:00  INFO 17656 --- [boot01hello] [restartedMain] test.com.hello.Person                    : Person()...
+2024-08-28T14:20:20.952+09:00  INFO 17656 --- [boot01hello] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-08-28T14:20:20.969+09:00  INFO 17656 --- [boot01hello] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-28T14:20:20.973+09:00  INFO 17656 --- [boot01hello] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8801 (http) with context path '/'
+2024-08-28T14:20:20.975+09:00  INFO 17656 --- [boot01hello] [restartedMain] test.com.hello.Boot01helloApplication    : Started Boot01helloApplication in 0.159 seconds (process running for 190.741)
+2024-08-28T14:20:20.976+09:00  INFO 17656 --- [boot01hello] [restartedMain] test.com.hello.UserComponent             : start()...
+2024-08-28T14:20:20.976+09:00  INFO 17656 --- [boot01hello] [restartedMain] test.com.hello.TestComponent             : userCom:UserComponent(user_name=yangssem, user_age=33)
+2024-08-28T14:20:20.978+09:00  INFO 17656 --- [boot01hello] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-28T14:20:34.408+09:00  INFO 17656 --- [boot01hello] [RMI TCP Connection(14)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-08-28T14:20:35.652+09:00  INFO 1504 --- [boot01hello] [restartedMain] test.com.hello.Boot01helloApplication    : Starting Boot01helloApplication using Java 17.0.10 with PID 1504 (C:\MULTI_EDU_26\springboot\work\boot01hello\target\classes started by tkwkd in C:\MULTI_EDU_26\springboot\work\boot01hello)
+2024-08-28T14:20:35.653+09:00  INFO 1504 --- [boot01hello] [restartedMain] test.com.hello.Boot01helloApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-08-28T14:20:35.683+09:00  INFO 1504 --- [boot01hello] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-28T14:20:35.683+09:00  INFO 1504 --- [boot01hello] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-28T14:20:36.213+09:00  INFO 1504 --- [boot01hello] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8801 (http)
+2024-08-28T14:20:36.222+09:00  INFO 1504 --- [boot01hello] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-28T14:20:36.222+09:00  INFO 1504 --- [boot01hello] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-08-28T14:20:36.253+09:00  INFO 1504 --- [boot01hello] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-28T14:20:36.253+09:00  INFO 1504 --- [boot01hello] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 570 ms
+2024-08-28T14:20:36.286+09:00  INFO 1504 --- [boot01hello] [restartedMain] test.com.hello.TestComponent             : TestComponent()...
+2024-08-28T14:20:36.286+09:00  INFO 1504 --- [boot01hello] [restartedMain] test.com.hello.TestComponent             : userCom:null
+2024-08-28T14:20:36.290+09:00  INFO 1504 --- [boot01hello] [restartedMain] test.com.hello.UserComponent             : UserComponent()...
+2024-08-28T14:20:36.290+09:00  INFO 1504 --- [boot01hello] [restartedMain] test.com.hello.UserComponent             : user_name:null
+2024-08-28T14:20:36.290+09:00  INFO 1504 --- [boot01hello] [restartedMain] test.com.hello.UserComponent             : user_age:0
+2024-08-28T14:20:36.292+09:00  INFO 1504 --- [boot01hello] [restartedMain] test.com.hello.TestBean                  : TestBean()...
+2024-08-28T14:20:36.293+09:00  INFO 1504 --- [boot01hello] [restartedMain] test.com.hello.Person                    : Person()...
+2024-08-28T14:20:36.324+09:00  INFO 1504 --- [boot01hello] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-08-28T14:20:36.466+09:00  INFO 1504 --- [boot01hello] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-28T14:20:36.489+09:00  INFO 1504 --- [boot01hello] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8801 (http) with context path '/'
+2024-08-28T14:20:36.494+09:00  INFO 1504 --- [boot01hello] [restartedMain] test.com.hello.Boot01helloApplication    : Started Boot01helloApplication in 1.085 seconds (process running for 1.522)
+2024-08-28T14:20:36.496+09:00  INFO 1504 --- [boot01hello] [restartedMain] test.com.hello.UserComponent             : start()...
+2024-08-28T14:20:36.496+09:00  INFO 1504 --- [boot01hello] [restartedMain] test.com.hello.TestComponent             : userCom:UserComponent(user_name=yangssem, user_age=33)
+2024-08-28T14:26:04.274+09:00  INFO 1504 --- [boot01hello] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2024-08-28T14:26:04.365+09:00  INFO 1504 --- [boot01hello] [restartedMain] test.com.hello.Boot01helloApplication    : Starting Boot01helloApplication using Java 17.0.10 with PID 1504 (C:\MULTI_EDU_26\springboot\work\boot01hello\target\classes started by tkwkd in C:\MULTI_EDU_26\springboot\work\boot01hello)
+2024-08-28T14:26:04.365+09:00  INFO 1504 --- [boot01hello] [restartedMain] test.com.hello.Boot01helloApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-08-28T14:26:04.488+09:00  INFO 1504 --- [boot01hello] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8801 (http)
+2024-08-28T14:26:04.489+09:00  INFO 1504 --- [boot01hello] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-28T14:26:04.489+09:00  INFO 1504 --- [boot01hello] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-08-28T14:26:04.498+09:00  INFO 1504 --- [boot01hello] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-28T14:26:04.498+09:00  INFO 1504 --- [boot01hello] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 131 ms
+2024-08-28T14:26:04.501+09:00  INFO 1504 --- [boot01hello] [restartedMain] test.com.hello.TestComponent             : TestComponent()...
+2024-08-28T14:26:04.502+09:00  INFO 1504 --- [boot01hello] [restartedMain] test.com.hello.TestComponent             : userCom:null
+2024-08-28T14:26:04.502+09:00  INFO 1504 --- [boot01hello] [restartedMain] test.com.hello.UserComponent             : UserComponent()...
+2024-08-28T14:26:04.502+09:00  INFO 1504 --- [boot01hello] [restartedMain] test.com.hello.UserComponent             : user_name:null
+2024-08-28T14:26:04.502+09:00  INFO 1504 --- [boot01hello] [restartedMain] test.com.hello.UserComponent             : user_age:0
+2024-08-28T14:26:04.503+09:00  INFO 1504 --- [boot01hello] [restartedMain] test.com.hello.TestBean                  : TestBean()...
+2024-08-28T14:26:04.504+09:00  INFO 1504 --- [boot01hello] [restartedMain] test.com.hello.Person                    : Person()...
+2024-08-28T14:26:04.514+09:00  INFO 1504 --- [boot01hello] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-08-28T14:26:04.545+09:00  INFO 1504 --- [boot01hello] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-28T14:26:04.551+09:00  INFO 1504 --- [boot01hello] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8801 (http) with context path '/'
+2024-08-28T14:26:04.555+09:00  INFO 1504 --- [boot01hello] [restartedMain] test.com.hello.Boot01helloApplication    : Started Boot01helloApplication in 0.209 seconds (process running for 329.583)
+2024-08-28T14:26:04.556+09:00  INFO 1504 --- [boot01hello] [restartedMain] test.com.hello.UserComponent             : start()...
+2024-08-28T14:26:04.556+09:00  INFO 1504 --- [boot01hello] [restartedMain] test.com.hello.TestComponent             : userCom:UserComponent(user_name=yangssem, user_age=33)
+2024-08-28T14:26:04.559+09:00  INFO 1504 --- [boot01hello] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-28T14:26:10.996+09:00  INFO 1504 --- [boot01hello] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2024-08-28T14:26:11.075+09:00  INFO 1504 --- [boot01hello] [restartedMain] test.com.hello.Boot01helloApplication    : Starting Boot01helloApplication using Java 17.0.10 with PID 1504 (C:\MULTI_EDU_26\springboot\work\boot01hello\target\classes started by tkwkd in C:\MULTI_EDU_26\springboot\work\boot01hello)
+2024-08-28T14:26:11.075+09:00  INFO 1504 --- [boot01hello] [restartedMain] test.com.hello.Boot01helloApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-08-28T14:26:12.962+09:00  INFO 5436 --- [boot01hello] [restartedMain] test.com.hello.Boot01helloApplication    : Starting Boot01helloApplication using Java 17.0.10 with PID 5436 (C:\MULTI_EDU_26\springboot\work\boot01hello\target\classes started by tkwkd in C:\MULTI_EDU_26\springboot\work\boot01hello)
+2024-08-28T14:26:12.964+09:00  INFO 5436 --- [boot01hello] [restartedMain] test.com.hello.Boot01helloApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-08-28T14:26:12.996+09:00  INFO 5436 --- [boot01hello] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-28T14:26:12.997+09:00  INFO 5436 --- [boot01hello] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-28T14:26:13.542+09:00  INFO 5436 --- [boot01hello] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8801 (http)
+2024-08-28T14:26:13.551+09:00  INFO 5436 --- [boot01hello] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-28T14:26:13.551+09:00  INFO 5436 --- [boot01hello] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-08-28T14:26:13.578+09:00  INFO 5436 --- [boot01hello] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-28T14:26:13.580+09:00  INFO 5436 --- [boot01hello] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 583 ms
+2024-08-28T14:26:13.612+09:00  INFO 5436 --- [boot01hello] [restartedMain] test.com.hello.TestComponent             : TestComponent()...
+2024-08-28T14:26:13.612+09:00  INFO 5436 --- [boot01hello] [restartedMain] test.com.hello.TestComponent             : userCom:null
+2024-08-28T14:26:13.615+09:00  INFO 5436 --- [boot01hello] [restartedMain] test.com.hello.UserComponent             : UserComponent()...
+2024-08-28T14:26:13.615+09:00  INFO 5436 --- [boot01hello] [restartedMain] test.com.hello.UserComponent             : user_name:null
+2024-08-28T14:26:13.616+09:00  INFO 5436 --- [boot01hello] [restartedMain] test.com.hello.UserComponent             : user_age:0
+2024-08-28T14:26:13.617+09:00  INFO 5436 --- [boot01hello] [restartedMain] test.com.hello.TestBean                  : TestBean()...
+2024-08-28T14:26:13.618+09:00  INFO 5436 --- [boot01hello] [restartedMain] test.com.hello.Person                    : Person()...
+2024-08-28T14:26:13.650+09:00  INFO 5436 --- [boot01hello] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-08-28T14:26:13.799+09:00  INFO 5436 --- [boot01hello] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-28T14:26:13.821+09:00  INFO 5436 --- [boot01hello] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8801 (http) with context path '/'
+2024-08-28T14:26:13.827+09:00  INFO 5436 --- [boot01hello] [restartedMain] test.com.hello.Boot01helloApplication    : Started Boot01helloApplication in 1.133 seconds (process running for 1.575)
+2024-08-28T14:26:13.829+09:00  INFO 5436 --- [boot01hello] [restartedMain] test.com.hello.UserComponent             : start()...
+2024-08-28T14:26:13.829+09:00  INFO 5436 --- [boot01hello] [restartedMain] test.com.hello.TestComponent             : userCom:UserComponent(user_name=yangssem, user_age=33)
+2024-08-28T14:29:57.664+09:00  INFO 5436 --- [boot01hello] [RMI TCP Connection(13)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.

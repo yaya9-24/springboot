@@ -1,0 +1,5 @@
+package test.com.rest.member;
+
+public class MemberVO {
+
+}

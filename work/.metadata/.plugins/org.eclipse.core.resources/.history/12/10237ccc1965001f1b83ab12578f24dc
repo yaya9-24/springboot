@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<a href="/home">home</a>
+	<a href="/member/insert">insert</a>
+	<a href="/member/update">update</a>
+	<a href="/member/delete">delete</a>
+	<a href="/member/selectAll">selectAll</a>
+	<a href="/member/selectOne">selectOne</a>
+	<hr>
+	<a href="/member/insertOK?id=admin&pw=hi1234">insertOK</a>
+	<a href="/member/updateOK?num=5&id=admin&pw=hi1234">updateOK</a>
+	<a href="/member/deleteOK?num=5">deleteOK</a>
+</html>
