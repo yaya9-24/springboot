@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>insert.html</title>
+<link rel="stylesheet" href="/css/main.css">
+</head>
+<body th:replace="~{layout::layout}">
+
+	<div th:fragment="content">
+		<h1>insert.html</h1>
+		<div>
+			<form action="/board/insertOK" method="post">
+				<table id="insertTable">
+					<tr>
+						<td><label for="title">제목</label></td>
+						<td><input type="text" id="title" name="title"
+							value="Serlvet...제목" placeholder="제목을 입력하세요"></td>
+					</tr>
+					<tr>
+						<td><label for="content">내용</label></td>
+						<td><textarea name="content" id="content" cols="150"
+								rows="10">Hello java내용</textarea></td>
+					</tr>
+					<tr>
+						<td><label for="writer">작성자</label></td>
+						<td><input type="text" id="writer" name="writer"
+							value="admin2"></td>
+					</tr>
+					<tr>
+						<td colspan="2"><input type="submit" value="작성완료"></td>
+					</tr>
+				</table>
+			</form>
+		</div>
+
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>update.html</title>
+<link rel="stylesheet" href="/css/main.css">
+</head>
+<body th:replace="~{layout::layout}">
+
+	<div th:fragment="content">
+		<h1>update.html</h1>
+
+		<div>
+
+			<form action="/member/updateOK" method="post">
+				<table id="insertTable">
+					<tr>
+						<td><label for="num">NUM</label></td>
+						<td>[[${param.num}]]<input type="hidden" id="num" name="num"
+							th:value="${param.num}"></td>
+					</tr>
+					<tr>
+						<td><label for="id">ID</label></td>
+						<td><input type="text" id="id" name="id" th:value="${vo2.id}"
+							placeholder="ID를 입력하세요"></td>
+					</tr>
+					<tr>
+						<td><label for="pw">PW</label></td>
+						<td><input type="text" id="pw" name="pw" th:value="${vo2.pw}"
+							placeholder="PW를 입력하세요"></td>
+					</tr>
+					<tr>
+					<tr>
+						<td><label for="name">NAME</label></td>
+						<td><input type="text" id="name" name="name"
+							th:value="${vo2.name}" placeholder="NAME를 입력하세요"></td>
+					</tr>
+					<tr>
+						<td><label for="tel">TEL</label></td>
+						<td><input type="text" id="tel" name="tel" th:value="${vo2.tel}"
+							placeholder="TEL를 입력하세요"></td>
+					</tr>
+					<tr>
+					<td colspan="2"><input type="submit" value="수정완료"></td>
+					</tr>
+				</table>
+			</form>
+		</div>
+	</div>
+
+</body>
+</html>

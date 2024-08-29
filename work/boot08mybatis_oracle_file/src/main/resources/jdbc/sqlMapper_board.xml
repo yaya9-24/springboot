@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="test.com.member.mapper.BoardMapper">
+
+<insert id="insertOK">
+	insert into board(num,title,content,writer)
+	values(seq_board.nextval,#{title},#{content},#{writer})
+</insert>
+
+<update id="updateOK">
+	update board set title=#{title}, content=#{content}, writer=#{writer}, wdate=sysdate
+	where num=#{num}
+</update>
+
+<delete id="deleteOK">
+	delete from board where num=#{num}
+</delete>
+
+<select id="selectOne" resultType="test.com.member.model.BoardVO">
+	select * from board where num =#{num} order by num desc
+</select>
+
+<select id="selectAll" resultType="test.com.member.model.BoardVO">
+	select * from board order by num desc
+</select>
+
+<select id="searchListTitle" resultType="test.com.member.model.BoardVO">
+	select * from board where title like #{title} order by num desc
+</select>
+
+<select id="searchListContent" resultType="test.com.member.model.BoardVO">
+	select * from board where content like #{content} order by num desc
+</select>
+
+
+</mapper>

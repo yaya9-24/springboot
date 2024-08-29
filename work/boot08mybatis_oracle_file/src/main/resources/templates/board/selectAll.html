@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>selectAll.html</title>
+<link rel="stylesheet" href="/css/main.css">
+</head>
+<body th:replace="~{layout::layout}">
+
+	<div th:fragment="content">
+		<h1>selectAll.html</h1>
+		<form action="/board/searchList">
+			<select name="searchKey">
+				<option value="title">title</option>
+				<option value="content">content</option>
+			</select> 
+			<input type="text" name="searchWord" value="java" placeholder="검색어를 입력하세요"> 
+			<input type="submit" value="검색">
+		</form>
+		<table id="insertTable">
+			<thead>
+				<tr>
+					<th>글번호</th>
+					<th>글제목</th>
+					<th>작성자</th>
+					<th>작성일자</th>
+				</tr>
+			</thead>
+			<tbody>
+				<th:block th:each="vo:${list}" >			
+					<tr>
+						<td><a th:href="|/board/selectOne?num=${vo.num}|">[[${vo.num}]]</a></td>
+						<td><a th:href="|/board/selectOne?num=${vo.num}|">[[${vo.title}]]</a></td>
+						<td>[[${vo.writer}]]</td>
+						<td>[[${vo.wdate}]]</td>
+					</tr>
+				</th:block>
+			</tbody>
+			<tfoot>
+				<tr>
+					<td colspan="4">1 2 3 4</td>
+				</tr>
+			</tfoot>
+		</table>
+	</div>
+</body>
+</html>
