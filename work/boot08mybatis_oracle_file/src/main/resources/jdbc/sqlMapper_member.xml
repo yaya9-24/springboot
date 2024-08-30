@@ -10,6 +10,39 @@
 		resultType="test.com.member.model.MemberVO">
 		select * from member order by num desc
 	</select>
+	
+ 	<select id="selectAllPageBlock"
+		resultType="test.com.member.model.MemberVO">
+		select * from (select member.*,rownum as rnum from member order by num desc)
+		where rnum between #{startRow} and #{endRow}
+	</select>
+	
+ 	<select id="searchListPageBlockId"
+		resultType="test.com.member.model.MemberVO">
+		select * from (select member.*,rownum as rnum from member where id like #{searchWord} order by num desc)
+		where rnum between #{startRow} and #{endRow}
+	</select>
+	
+ 	<select id="searchListPageBlockName"
+		resultType="test.com.member.model.MemberVO">
+		select * from (select member.*,rownum as rnum from member where name like #{searchWord} order by num desc)
+		where rnum between #{startRow} and #{endRow}
+	</select>
+	
+	<select id="getTotalRows"
+		resultType="java.lang.Integer">
+		select count(*) total_rows from member 
+	</select>
+	
+	<select id="getSearchTotalRowsId"
+		resultType="java.lang.Integer">
+		select count(*) total_rows from member where id like #{searchWord} 
+	</select>
+	
+	<select id="getSearchTotalRowsName"
+		resultType="java.lang.Integer">
+		select count(*) total_rows from member where name like #{searchWord} 
+	</select>
 
 	<select id="searchListName"
 		resultType="test.com.member.model.MemberVO">
@@ -35,7 +68,7 @@
 
 	<update id="updateOK">
 		update member set
-		id=#{id},pw=#{pw},name=#{name},tel=#{tel} where num=#{num}
+		id=#{id},pw=#{pw},name=#{name},tel=#{tel},profile=#{profile} where num=#{num}
 	</update>
 
 	<delete id="deleteOK">

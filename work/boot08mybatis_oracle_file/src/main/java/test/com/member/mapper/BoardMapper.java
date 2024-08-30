@@ -22,4 +22,16 @@ public interface BoardMapper {
 	public int updateOK(BoardVO vo);
 
 	public int deleteOK(BoardVO vo);
+
+	public int getTotalRows();
+
+	public List<BoardVO> selectAllPageBlock(int startRow, int endRow);
+
+	public List<BoardVO> searchListPageBlockTitle(String searchWord, int startRow, int endRow);
+
+	public List<BoardVO> searchListPageBlockContent(String searchWord, int startRow, int endRow);
+
+	public int getSearchTotalRowsTitle(String searchWord);
+
+	public int getSearchTotalRowsContent(String searchWord);
 }

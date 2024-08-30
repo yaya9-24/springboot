@@ -23,4 +23,16 @@ public interface MemberMapper {
 	public List<MemberVO> searchListId(String searchWord);
 
 	public List<MemberVO> searchListName(String searchWord);
+
+	public int getTotalRows();
+
+	public List<MemberVO> selectAllPageBlock(int startRow, int endRow);
+
+	public int getSearchTotalRowsId(String searchWord);
+
+	public int getSearchTotalRowsName(String searchWord);
+
+	public List<MemberVO> searchListPageBlockId(String searchWord,int startRow, int endRow);
+
+	public List<MemberVO> searchListPageBlockName(String searchWord,int startRow, int endRow);
 }

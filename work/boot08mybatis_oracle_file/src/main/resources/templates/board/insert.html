@@ -10,7 +10,7 @@
 	<div th:fragment="content">
 		<h1>insert.html</h1>
 		<div>
-			<form action="/board/insertOK" method="post">
+			<form action="/board/insertOK" method="post" enctype="multipart/form-data">
 				<table id="insertTable">
 					<tr>
 						<td><label for="title">제목</label></td>
@@ -26,6 +26,10 @@
 						<td><label for="writer">작성자</label></td>
 						<td><input type="text" id="writer" name="writer"
 							value="admin2"></td>
+					</tr>
+					<tr>
+						<td><label for="file">파일</label></td>
+						<td><input type="file" id="file" name="file"></td>
 					</tr>
 					<tr>
 						<td colspan="2"><input type="submit" value="작성완료"></td>

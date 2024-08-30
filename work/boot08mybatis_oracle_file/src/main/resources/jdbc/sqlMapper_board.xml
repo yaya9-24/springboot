@@ -6,12 +6,12 @@
 <mapper namespace="test.com.member.mapper.BoardMapper">
 
 <insert id="insertOK">
-	insert into board(num,title,content,writer)
-	values(seq_board.nextval,#{title},#{content},#{writer})
+	insert into board(num,title,content,writer,img_name)
+	values(seq_board.nextval,#{title},#{content},#{writer},#{img_name})
 </insert>
 
 <update id="updateOK">
-	update board set title=#{title}, content=#{content}, writer=#{writer}, wdate=sysdate
+	update board set title=#{title}, content=#{content}, writer=#{writer},img_name=#{img_name},wdate=sysdate
 	where num=#{num}
 </update>
 
@@ -27,12 +27,39 @@
 	select * from board order by num desc
 </select>
 
+<select id="selectAllPageBlock" resultType="test.com.member.model.BoardVO">
+	select * from (select board.*,rownum as rnum from board order by num desc)
+		where rnum between #{startRow} and #{endRow}
+</select>
+
+<select id="searchListPageBlockTitle" resultType="test.com.member.model.BoardVO">
+	select * from (select board.*,rownum as rnum from board where title like #{searchWord} order by num desc)
+		where rnum between #{startRow} and #{endRow}
+</select>
+
+<select id="searchListPageBlockContent" resultType="test.com.member.model.BoardVO">
+	select * from (select board.*,rownum as rnum from board where content like #{searchWord} order by num desc)
+		where rnum between #{startRow} and #{endRow}
+</select>
+
+<select id="getTotalRows" resultType="java.lang.Integer">
+	select count(*) total_rows from board 
+</select>
+
 <select id="searchListTitle" resultType="test.com.member.model.BoardVO">
-	select * from board where title like #{title} order by num desc
+	select * from board where title like #{searchWord} order by num desc
+</select>
+
+<select id="getSearchTotalRowsTitle" resultType="java.lang.Integer">
+	select count(*) total_rows from board where title like #{searchWord}
+</select>
+
+<select id="getSearchTotalRowsContent" resultType="java.lang.Integer">
+	select count(*) total_rows from board where content like #{searchWord}
 </select>
 
 <select id="searchListContent" resultType="test.com.member.model.BoardVO">
-	select * from board where content like #{content} order by num desc
+	select * from board where content like #{searchWord} order by num desc
 </select>
 
 

@@ -12,7 +12,7 @@
 
 		<div>
 
-			<form action="/board/updateOK" method="post">
+			<form action="/board/updateOK" method="post" enctype="multipart/form-data">
 				<table id="insertTable">
 					<tr>
 						<td><label for="num">글번호</label></td>
@@ -33,6 +33,13 @@
 						<td><label for="writer">작성자</label></td>
 						<td>admin1<input type="hidden" id="writer" name="writer"
 							th:value="${vo2.writer}"></td>
+					</tr>
+					<tr>
+						<td><label for="file">파일<img th:src="|/uploadimgPath/thumb_${vo2.img_name}|"></label></td>
+						<td>
+						<input type="file" id="file" name="file">
+						<input type="hidden" id="img_name" name="img_name" th:value="${vo2.img_name}">
+						</td>
 					</tr>
 					<tr>
 						<td colspan="2"><input type="submit" value="수정완료"></td>

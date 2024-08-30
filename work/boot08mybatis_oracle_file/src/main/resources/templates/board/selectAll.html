@@ -24,21 +24,34 @@
 					<th>글제목</th>
 					<th>작성자</th>
 					<th>작성일자</th>
+					<th>이미지</th>
 				</tr>
 			</thead>
 			<tbody>
 				<th:block th:each="vo:${list}" >			
 					<tr>
 						<td><a th:href="|/board/selectOne?num=${vo.num}|">[[${vo.num}]]</a></td>
-						<td><a th:href="|/board/selectOne?num=${vo.num}|">[[${vo.title}]]</a></td>
+						<td>[[${vo.title}]]</td>
 						<td>[[${vo.writer}]]</td>
 						<td>[[${vo.wdate}]]</td>
+						<td><img th:src="|/uploadimgPath/thumb_${vo.img_name}|"></td>
 					</tr>
 				</th:block>
 			</tbody>
 			<tfoot>
 				<tr>
-					<td colspan="4">1 2 3 4</td>
+					<td colspan="6">
+					<th:block th:each="i:${#numbers.sequence(1,totalPageCount)}">
+						<th:block th:if="${param.searchKey==null}">
+							<a th:href="|/board/selectAll?cpage=${i}|">[[${i}]]</a>
+						</th:block>
+						<th:block th:if="${param.searchKey!=null}">
+							<th:block th:with="searchKey=${param.searchKey},searchWord=${param.searchWord}">
+							<a th:href="|/board/searchList?cpage=${i}&searchKey=${searchKey}&searchWord=${searchWord}|">[[${i}]]</a>
+						</th:block>	
+						</th:block>						
+					</th:block>
+					</td>
 				</tr>
 			</tfoot>
 		</table>
