@@ -3,11 +3,39 @@
 <head>
 <meta charset="UTF-8">
 <title>selectOne.html</title>
+<link rel="stylesheet" href="/css/main.css">
 </head>
 <body th:replace="~{layout::layout}">
-	
+
 	<div th:fragment="content">
 		<h1>selectOne.html</h1>
+		
+		<div>
+			<table id="insertTable">
+				<thead>
+					<tr>
+						<th>NUM</th>
+						<th>ID</th>
+						<th>PW</th>
+						<th>NAME</th>
+						<th>TEL</th>
+						<th>DATE</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>[[${vo2.num}]]</td>
+						<td>[[${vo2.id}]]</td>
+						<td>[[${vo2.pw}]]</td>
+						<td>[[${vo2.name}]]</td>
+						<td>[[${vo2.tel}]]</td>
+						<td>[[${vo2.regdate}]]</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<a th:href="|/member/update?num=${vo2.num}|">회원수정</a> 
+		<a th:href="|/member/delete?num=${vo2.num}|">회원삭제</a>
 	</div>
 
 </body>

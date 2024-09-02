@@ -3,11 +3,60 @@
 <head>
 <meta charset="UTF-8">
 <title>selectAll.html</title>
+<link rel="stylesheet" href="/css/main.css">
 </head>
 <body th:replace="~{layout::layout}">
-	
+
 	<div th:fragment="content">
 		<h1>selectAll.html</h1>
+		<form action="/member/searchList">
+			<select name="searchKey">
+				<option value="id">id</option>
+				<option value="name">name</option>
+			</select> <input type="text" name="searchWord" value="ad"> <input
+				type="submit" value="검색">
+		</form>
+		<table id="insertTable">
+			<thead>
+				<tr>
+					<th>NUM</th>
+					<th>ID</th>
+					<th>PW</th>
+					<th>NAME</th>
+					<th>TEL</th>
+					<th>DATE</th>	
+				</tr>
+			</thead>
+			<tbody>
+				<th:block th:each="vo:${list}">				
+					<tr>
+						<td><a th:href="|/member/selectOne?num=${vo.num}|">[[${vo.num}]]</a></td>
+						<td>[[${vo.id}]]</td>
+						<td>[[${vo.pw}]]</td>
+						<td>[[${vo.name}]]</td>
+						<td>[[${vo.tel}]]</td>
+						<td>[[${vo.regdate}]]</td>
+					</tr>				
+				</th:block>
+			</tbody>
+			<tfoot>
+				<tr>
+					<td colspan="6">
+					<th:block th:each="i:${#numbers.sequence(1,totalPageCount)}">
+						<th:block th:if="${param.searchKey==null}">
+							<a th:href="|/member/selectAll?cpage=${i}|">[[${i}]]</a>
+						</th:block>
+						<th:block th:if="${param.searchKey!=null}">
+							<th:block th:with="searchKey=${param.searchKey},searchWord=${param.searchWord}">
+							<a th:href="|/member/searchList?cpage=${i}&searchKey=${searchKey}&searchWord=${searchWord}|">[[${i}]]</a>
+							</th:block>	
+						</th:block>						
+					</th:block>
+					</td>
+				</tr>
+			</tfoot>
+		</table>
+
 	</div>
 
 </body>
