@@ -1,6 +1,0 @@
-spring.application.name=boot01hello
-server.port=8801
-
-#로그파일로 저장할 수 있다.
-#기본 생성 경로 > 프로젝트폴더 하위(프로젝트 선택후 새로고침)
-logging.file.name=logger_hello.log
